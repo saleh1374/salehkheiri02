@@ -1,0 +1,26 @@
+{
+  "name": "salehkheiri02",
+  "version": "2.0.0",
+  "description": "Migration of salehkheiri with full PostgreSQL database integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "prisma:init": "npx prisma init",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:generate": "npx prisma generate",
+    "prisma:studio": "npx prisma studio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgresql",
+    "migration",
+    "prisma",
+    "database"
+  ],
+  "author": "Saleh Kheiri",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
